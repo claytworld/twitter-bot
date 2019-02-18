@@ -13,8 +13,8 @@ const SendMessage = user => {
 
   const obj = {
     screen_name,
-    text: GenerateMessage(name)
-  };
+    text: GenerateMessage(name)"! Really appreciate the follow. Make sure you peep my latest music video for Things I Gotta Say at https://www.youtube.com/watch?v=T1Lgb2tCHD4 and let me know what you think! Your opinion matters so definitely tell me if you can vibe with it. 🙏 Thank you!"
+  }; 
   // the follow stream track if I follow author person too.
   if (screen_name != my_user_name) {
     console.log(" 🎉🎉🎉🎉 New Follower  🎉🎉🎉🎉🎉 ");
